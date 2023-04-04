@@ -19,7 +19,7 @@ public class Bottone {
         b.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("si mi hai premuto tutto");
+                System.out.println("mi hai premuto");
             }
         });
     }
