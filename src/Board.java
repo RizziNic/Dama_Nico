@@ -95,8 +95,18 @@ public class Board {
         JFrame f = new JFrame("Esempio Dama con Swing");
         f.setSize(650, 650);
         f.setVisible(true);
-        //Bottone bottone = new Bottone(0, 0, Color.BLACK);
-        Bottone.disegnaPulsante(Color.BLACK, 0, 0);
+        Button bottoni[][] = new Button[8][8];
+
+        for(int i=0; i<bottoni.length; i++){
+            for(int j=0; j<bottoni[0].length; j++){
+                Bottone.disegnaPulsante(Color.BLACK, 0, 0);
+            }
+        }
+
+        //Button bottone = new Button();
+        //bottone.setBounds(0, 0, 100, 30);
+        //bottone.setVisible(true);
+        //Bottone.disegnaPulsante(Color.BLACK, 0, 0);
         //Button bottoni[][] = new Button[8][8];
 
 

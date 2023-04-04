@@ -13,7 +13,7 @@ public class Bottone {
     }
 
     public static void disegnaPulsante(Color color, int x, int y){
-        Button b = new Button("ciao");
+        Button b = new Button("ciao"); //devo farlo da Board
         b.setBounds(x, y, 100, 30);
         b.setVisible(true);
         b.addActionListener(new ActionListener() {
